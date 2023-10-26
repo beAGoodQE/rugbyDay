@@ -1,5 +1,5 @@
 # rugbyDay
-Enter a description for your project
+Simple unmanaged package to test out D2X Launchpad
 
 # Project Setup
 This project is preconfigured with D2X for a comprehensive Development-to-Delivery Experience including CI/CD using GitHub Actions and development environments using GitHub Codespaces.
