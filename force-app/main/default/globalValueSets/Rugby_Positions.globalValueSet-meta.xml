@@ -48,7 +48,7 @@
     <customValue>
         <fullName>Left Winger</fullName>
         <default>false</default>
-        <label>Left Wing</label>
+        <label>Left Winger</label>
     </customValue>
     <customValue>
         <fullName>Inside Center</fullName>
@@ -61,7 +61,7 @@
         <label>Outside Center</label>
     </customValue>
     <customValue>
-        <fullName>Right Winger</fullName>
+        <fullName>Right Wing</fullName>
         <default>false</default>
         <label>Right Wing</label>
     </customValue>
