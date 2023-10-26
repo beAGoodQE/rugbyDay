@@ -46,7 +46,7 @@
         <label>Fly-half</label>
     </customValue>
     <customValue>
-        <fullName>Left Winger</fullName>
+        <fullName>Left Wing</fullName>
         <default>false</default>
         <label>Left Wing</label>
     </customValue>
@@ -61,7 +61,7 @@
         <label>Outside Center</label>
     </customValue>
     <customValue>
-        <fullName>Right Winger</fullName>
+        <fullName>Right Wing</fullName>
         <default>false</default>
         <label>Right Wing</label>
     </customValue>
