@@ -24,6 +24,7 @@ orgs:
             config_file: orgs/unmanaged.json
         feature:
             config_file: orgs/unmanaged.json
+            days: 7
         qa:
-            config_file: orgs/unmanaged.json
+            config_file: orgs/qa.json
 
