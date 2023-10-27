@@ -13,3 +13,5 @@ D2X requires some minimal configuration of your GitHub organization or repositor
 You can check the status of your setup by monitoring the status of the following GitHub Actions workflows:
 * [![Feature Test](https://github.com/beAGoodQE/rugbyDay/actions/workflows/feature.yml/badge.svg)](https://github.com/beAGoodQE/rugbyDay/actions/workflows/feature.yml)
 
+# Developer Notes
+Ignore AppMenu metadata when possible.
