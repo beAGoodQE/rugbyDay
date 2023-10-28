@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Year_With_Club__c</fullName>
+    <description>First Year With Club.  4 digit year only.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>First Year With Club.  4 digit year only.</inlineHelpText>
+    <label>First Year With Club</label>
+    <length>4</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
