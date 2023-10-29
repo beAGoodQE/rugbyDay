@@ -227,8 +227,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.First_Year_With_Club__c</fieldItem>
-                <identifier>RecordFirst_Year_With_Club_cField</identifier>
+                <fieldItem>Record.Shirt_Size__c</fieldItem>
+                <identifier>RecordShirt_Size_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -237,8 +237,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Shirt_Size__c</fieldItem>
-                <identifier>RecordShirt_Size_cField</identifier>
+                <fieldItem>Record.First_Year_With_Club__c</fieldItem>
+                <identifier>RecordFirst_Year_With_Club_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-eaf73d92-8832-470a-bb58-618ac53e303d</name>
