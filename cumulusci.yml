@@ -28,3 +28,24 @@ orgs:
         qa:
             config_file: orgs/qa.json
 
+tasks:
+
+    tbd:
+        description: tbd
+        group: tbd
+
+    install_google_alerts:
+        group: Salesforce Packages
+        description: Install the latest version of Google Alerts News Feed
+        class_path: cumulusci.tasks.salesforce.UpdateDependencies
+        options:
+            dependencies:
+                - package_name: Google Alerts
+                  version_id: 04t1t000003LarKAAS
+
+flows:
+
+    tbd:
+        steps:
+            3:
+                task: None
