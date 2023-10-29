@@ -30,10 +30,6 @@ orgs:
 
 tasks:
 
-    tbd:
-        description: tbd
-        group: tbd
-
     install_google_alerts:
         group: Salesforce Packages
         description: Install the latest version of Google Alerts News Feed
