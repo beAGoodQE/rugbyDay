@@ -23,7 +23,7 @@ orgs:
         dev:
             config_file: orgs/unmanaged.json
         feature:
-            config_file: orgs/unmanaged.json
+            config_file: orgs/feature.json
             days: 7
         qa:
             config_file: orgs/qa.json
@@ -39,9 +39,18 @@ tasks:
                 - package_name: Google Alerts
                   version_id: 04t1t000003LarKAAS
 
-flows:
+    test_data_qa_org:
+        description: 'Loads a simple test data set for the Rugby Day app'
+        class_path: cumulusci.tasks.bulkdata.LoadData
+        group: Test Data
+        options:
+            sql_path: 'datasets/qa_org/sample.sql'
+            mapping: 'datasets/qa_org/mapping.yml'
 
-    tbd:
+flows:
+    config_qa:
         steps:
             3:
+                task: test_data_qa_org
+            90:
                 task: None

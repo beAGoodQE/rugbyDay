@@ -1,0 +1,22 @@
+Insert Account:
+  sf_object: Account
+  fields:
+  - Name
+  lookups:
+    ParentId:
+      table: Account
+      after: Insert Account
+Insert Contact:
+  sf_object: Contact
+  fields:
+  - Board_Member__c
+  - Club_Member__c
+  - FirstName
+  - First_Year_With_Club__c
+  - LastName
+  - Positions__c
+  - Shirt_Size__c
+  - Type__c
+  lookups:
+    AccountId:
+      table: Account
