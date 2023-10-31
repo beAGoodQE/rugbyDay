@@ -1,6 +1,9 @@
 # rugbyDay
 Simple unmanaged package to test out D2X Launchpad
 
+# Post rugbyDay Install Setup
+rugbyDay application comes with "Rugby Home" Home Page which includes a Google Alerts feed compoonent configured for the "Latest World Rugby News".  Activate it as your Home Page if desired.
+
 # Project Setup
 This project is preconfigured with D2X for a comprehensive Development-to-Delivery Experience including CI/CD using GitHub Actions and development environments using GitHub Codespaces.
 

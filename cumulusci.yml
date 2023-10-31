@@ -30,7 +30,7 @@ orgs:
 
 tasks:
 
-    install_google_alerts:
+    optional_install_google_alerts:
         group: Salesforce Packages
         description: Install the latest version of Google Alerts News Feed
         class_path: cumulusci.tasks.salesforce.UpdateDependencies
@@ -42,7 +42,7 @@ tasks:
     test_data_qa_org:
         description: 'Loads a simple test data set for the Rugby Day app'
         class_path: cumulusci.tasks.bulkdata.LoadData
-        group: Test Data
+        group: Sample Data
         options:
             sql_path: 'datasets/qa_org/sample.sql'
             mapping: 'datasets/qa_org/mapping.yml'
