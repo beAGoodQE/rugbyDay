@@ -10,7 +10,6 @@ project:
     source_format: sfdx
     dependencies:
         - github: "https://github.com/SalesforceFoundation/NPSP"
-      
 
 tasks:
     run_tests:
@@ -48,6 +47,11 @@ tasks:
             mapping: 'datasets/qa_org/mapping.yml'
 
 flows:
+    dependencies:
+        steps:
+            3:
+                task: optional_install_google_alerts
+
     config_qa:
         steps:
             3:
