@@ -1,4 +1,4 @@
-minimum_cumulusci_version: '3.76.0'
+minimum_cumulusci_version: '3.83.0'
 project:
     name: rugbyDay
     package:
@@ -10,11 +10,6 @@ project:
     source_format: sfdx
     dependencies:
         - github: "https://github.com/SalesforceFoundation/NPSP"
-
-tasks:
-    run_tests:
-        options:
-            required_org_code_coverage_percent: 75
 
 orgs:
     scratch:
@@ -37,6 +32,10 @@ tasks:
             dependencies:
                 - package_name: Google Alerts
                   version_id: 04t1t000003LarKAAS
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
 
     test_data_qa_org:
         description: 'Loads a simple test data set for the Rugby Day app'
