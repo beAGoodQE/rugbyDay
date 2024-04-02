@@ -14,7 +14,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Rugby Day Dashboard</description>
     <isGridLayout>true</isGridLayout>
-    <runningUser>test-kcf2cbrdxxaq@example.com</runningUser>
+<!--    <runningUser>test-kcf2cbrdxxaq@example.com</runningUser> -->
     <textColor>#000000</textColor>
     <title>Rugby Dashboard</title>
     <titleColor>#000000</titleColor>
