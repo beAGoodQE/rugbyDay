@@ -4,6 +4,7 @@
  */
 trigger LeadCreateCampaignMemberRL on Lead (after insert) {
 
+    
     /**
      * Creates Campaign Member records on the Primary_Campaign_Source__c field of newly inserted Leads
      * @param newLeads List of Lead records that have been inserted.
