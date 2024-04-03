@@ -11,7 +11,7 @@
     <filters>
         <field>OPPORTUNITY.RECORDTYPE</field>
         <operation>equals</operation>
-        <value>Opportunity.Dues</value>
+        <value>Opportunity.Donation</value>
     </filters>
     <label>All Dues</label>
 </ListView>
