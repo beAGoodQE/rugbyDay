@@ -17,9 +17,13 @@ tasks:
         options:
             required_org_code_coverage_percent: 75
 
-    create_package_version:
-        options:
-            create_unlocked_dependency_packages: True
+flows:
+    release_unlocked_beta:
+        steps:
+            1:
+                task: create_package_version
+                options:
+                    create_unlocked_dependency_packages: True
 
 orgs:
     scratch:
@@ -33,4 +37,3 @@ orgs:
             config_file: orgs/managed.json
         release:
             config_file: orgs/managed.json
-
