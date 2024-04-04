@@ -3,7 +3,7 @@
     <fullName>Athletic_Director__c</fullName>
     <description>Athletic Director for the College</description>
     <externalId>false</externalId>
-    <inlineHelpText>Athletic Director for the College</inlineHelpText>
+    <inlineHelpText>Athletic Director for the College.</inlineHelpText>
     <label>Athletic Director</label>
     <length>100</length>
     <required>false</required>
