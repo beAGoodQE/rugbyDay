@@ -17,5 +17,10 @@
         "forceRelogin": false
       }
     }
+  },
+  "objectSettings": {
+    "account": {
+        "defaultRecordType": "default"
+    }
   }
 }
