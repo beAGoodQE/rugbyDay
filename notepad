@@ -6,7 +6,7 @@ curl https://connect.squareup.com/v2/customers \
   -d '{
     "given_name": "Test",
     "family_name": "Tester",
-    "email_address": "kizer4@hotmail.com",
+    "email_address": "test@test.com",
     "address": {
       "address_line_1": "500 Electric Ave",
       "address_line_2": "Suite 600",
@@ -29,7 +29,7 @@ curl https://connect.squareup.com/v2/customers/search \
   "query": {
     "filter": {
       "email_address": {
-        "fuzzy": "kizer4@hotmail.com"
+        "fuzzy": "test@test.com"
       }
     },
     "sort": {
