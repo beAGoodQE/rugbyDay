@@ -28,6 +28,12 @@ tasks:
             required_org_code_coverage_percent: 75
 
 flows:
+
+    config_dev:
+        steps:
+            3:
+                task: add_standard_value_set_entries
+                
     release_unlocked_beta:
         steps:
             1:
