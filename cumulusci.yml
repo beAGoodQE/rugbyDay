@@ -1,20 +1,39 @@
-minimum_cumulusci_version: '3.76.0'
+minimum_cumulusci_version: '3.80.0'
 project:
     name: rugbyDay
     package:
         name: rugbyDay
         
-        api_version: '58.0'
+        api_version: '60.0'
     git:
         default_branch: 'main'
     source_format: sfdx
 
 tasks:
+
+    add_standard_value_set_entries:
+        options:
+            api_names:
+                - OpportunityStage
+            entries:
+                - label: Invoice Sent
+                  fullName: Invoice Sent
+                  closed: 'False'
+                  forecastCategory: 'Pipeline'
+                  probability: 85
+                  won: 'False'
+
     run_tests:
         options:
             required_org_code_coverage_percent: 75
 
 flows:
+
+    config_dev:
+        steps:
+            3:
+                task: add_standard_value_set_entries
+                
     release_unlocked_beta:
         steps:
             1:
