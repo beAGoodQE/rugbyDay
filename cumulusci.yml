@@ -22,6 +22,12 @@ tasks:
                   forecastCategory: 'Pipeline'
                   probability: 85
                   won: 'False'
+                - label: Invoice Paid
+                  fullName: Invoice Paid
+                  closed: 'False'
+                  forecastCategory: 'Pipeline'
+                  probability: 95
+                  won: 'False'
 
     run_tests:
         options:
