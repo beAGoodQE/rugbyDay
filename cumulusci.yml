@@ -57,5 +57,6 @@ orgs:
             config_file: orgs/managed.json
         qa:
             config_file: orgs/managed.json
+            days: 30
         release:
             config_file: orgs/managed.json
